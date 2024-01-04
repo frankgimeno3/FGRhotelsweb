@@ -4,7 +4,7 @@
 
 export const environment = {
     firebase: {
-        apiKey: "AIzaSyBYImVknWsieOrvsuHOUh4Ghi_PSStaZqA",
+        apiKey: "AIzaSyD_-8ly4hRMLwFkBy2cLSzU6B6LLnzp6_s",
         authDomain: "fgrhoteles.firebaseapp.com",
         projectId: "fgrhoteles",
         storageBucket: "fgrhoteles.appspot.com",
