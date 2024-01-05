@@ -1,0 +1,6 @@
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('/assets/hero-background.jpg');
+    background-size: cover;
+  }

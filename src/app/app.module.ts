@@ -14,6 +14,11 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { RouterModule } from '@angular/router';
+import { NavUnloggedComponent } from './components/main/mainComponents/NavUnlogged/NavUnlogged.component';
+import { HeroComponent } from './components/main/mainComponents/Hero/Hero.component';
+import { PromocionComponent } from './components/main/mainComponents/Promocion/Promocion.component';
+import { HotelsUnloggedComponent } from './components/main/mainComponents/HotelsUnlogged/HotelsUnlogged.component.';
+import { FooterUnloggedComponent } from './components/main/mainComponents/FooterUnlogged/FooterUnlogged.component';
 
 
 @NgModule({
@@ -23,8 +28,13 @@ import { RouterModule } from '@angular/router';
     RegisterComponent,
     LoginComponent,
     DashboardComponent,
-    ReservarComponent
-  ],
+    ReservarComponent,
+    NavUnloggedComponent,
+    HeroComponent,
+    PromocionComponent,
+    HotelsUnloggedComponent,
+    FooterUnloggedComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
