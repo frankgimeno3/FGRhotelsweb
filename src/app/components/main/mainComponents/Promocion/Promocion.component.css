@@ -1,5 +1,17 @@
 .promo-section {
-    background-color: #e0e0e0;
-    padding: 2rem;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(193, 253, 243);
+  padding: 2rem;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
