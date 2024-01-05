@@ -1,0 +1,29 @@
+/* Establece el fondo en blanco para todo el componente */
+:host {
+    background-color: white;
+}
+
+/* Fija el div de NavUnlogged en la parte superior */
+.nav-unlogged-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+/* Establece el ancho completo de pantalla para Hero y Promocion */
+.hero-container,
+.promocion-container {
+    width: 100%;
+}
+
+/* Estilos para el div de Hoteles */
+.hoteles-container {
+    background-color: white;
+    margin: 3rem 6rem; /* Equivalente a mx-24 y my-12 en Tailwind */
+}
+
+/* Establece el ancho de pantalla para el footer */
+.footer-container {
+    width: 100%;
+}

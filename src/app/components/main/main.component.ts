@@ -7,22 +7,7 @@ import { UserService } from '../../services/user.service';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
-export class MainComponent implements OnInit {
+export class MainComponent  {
 
-  constructor(
-    private userService: UserService,
-    private router: Router
-  ) { }
-
-  ngOnInit(): void {
-  }
-
-  onClick() {
-    this.userService.logout()
-      .then(() => {
-        this.router.navigate(['/register']);
-      })
-      .catch((error:any) => console.log(error));
-  }
-
+ 
 }
