@@ -3,6 +3,8 @@
     background-color: white;
 }
 
+
+
 /* Fija el div de NavUnlogged en la parte superior */
 .nav-unlogged-container {
     position: fixed;
@@ -12,9 +14,11 @@
 }
 
 /* Establece el ancho completo de pantalla para Hero y Promocion */
-.hero-container,
-.promocion-container {
-    width: 100%;
+
+.hero-container {
+    height: screen;
+     width: 100%;
+
 }
 
 /* Estilos para el div de Hoteles */
