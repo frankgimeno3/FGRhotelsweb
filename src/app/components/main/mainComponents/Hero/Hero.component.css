@@ -1,67 +1,68 @@
-.hero-section {
-  text-align: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.4) 90%), url('/assets/hero-background.jpg');
-  background-size: cover;
-  height: 100vh;
-}
-
-a.hero-section {
+.hero-section{
   text-align: center;
   background-image: url('/assets/hero-background.jpg');
   background-size: cover;
-  height: 90vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.4) 90%), url('/assets/hero-background.jpg');
+  height: 100vh;
+}
+ 
+.leftsection{
   display: flex;
   flex-direction: column;
+  justify-content: left;
+  padding-top: 18%;
+  padding-left: 5%;
+  font-weight: bold;
 }
 
-.flex-column,
-.flex-row {
+.leftsection article{
+ justify-content: left;
+ text-align: left;
+align-items: left;
+ } 
+ 
+.personas{
   display: flex;
-}
-
-.flex-column {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-row {
   flex-direction: row;
-  justify-content: space-between;
-}
-
-article {
-  font-weight: bold;
-  /* todos los articles en negrita */
-}
-
-button {
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  padding: 0.5em 1em;
-}
-
-.search-container {
+ }
+ .personas p{
+  margin: 2px;
+  }
+.centerbar {
   display: flex;
+  justify-content: center;
   border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.bg-white {
+   margin-top: 10%;
+} 
+.leftsidesearchbar{
+  display: flex;
+  flex-direction: row;
   background-color: white;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  padding: 5px;
+  border-top-left-radius: 10px; /* Redondea la esquina superior izquierda */
+  border-bottom-left-radius: 10px; /* Redondea la esquina inferior izquierda */
+}
+.leftsidesearchbar div{
+  padding: 10px 20px 10px 20px
 }
 
-.bg-lightblue {
-  background-color: lightblue;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: black;
-  font-weight: bold;
+.promobutton{
+  padding: 0  20px 0 20px;
+  border-radius: 20px;
+  border-color: rgb(75, 207, 185);
+  background-color: transparent;
+  font-size: x-small;
+  margin: 8px 0px 8px 0px;
+ }
+
+ .rightsidesearchbar {
+  display: flex;  
+  align-items: center;  
+  justify-content: center; 
+  background-color: rgb(75, 207, 185);
+  border-top-right-radius: 10px;  
+  border-bottom-right-radius: 10px;  
+  padding: 10px 20px 10px 20px
 }
