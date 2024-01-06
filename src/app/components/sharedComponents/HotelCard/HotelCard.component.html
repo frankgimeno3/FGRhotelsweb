@@ -1,0 +1,16 @@
+<div class="hotel-card" [style.backgroundImage]="'url(' + srcImagen + ')'" style="background-blend-mode: darken; padding: 20px 30px;">
+    <div class="hotel-info">
+        <p class="hotel-location">{{ ubi }}</p>
+        <h2 class="hotel-name">{{ nombre }}</h2>
+    </div>
+    <div class="hotel-pricing row" style="padding: 100px 10px 40px 10px;">
+        <div class="col" style="margin: 0px 60px 0px 0px;">
+            <p class="price-label">Desde</p>
+            <div class="hotel-price">{{ precio }}<span class="currency">€</span></div>
+        </div>
+        <div class="row">
+            <p class="hotel-rating">{{ nota }}</p>
+            <p class="rating-scale">/10</p>
+        </div>
+    </div>
+</div>

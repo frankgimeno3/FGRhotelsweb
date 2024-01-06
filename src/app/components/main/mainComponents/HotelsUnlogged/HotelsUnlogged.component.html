@@ -1,3 +1,18 @@
-<div class="hotel-list">
-    <p>Lista de hoteles</p>
+<div class="hotel-list col" style="justify-content: center; align-items: center;">
+  <p>TOP APARTAMENTOS & HOTELES</p>
+  <p>Descubre los alojamientos más destacados en nuestros destinos</p>
+  <div class="row" style="margin:  0px 0px 0px 290px; justify-content: center; align-items: center;">
+    <!-- <svg></svg> -->
+    <div *ngFor="let hotel of hoteles" >
+    <HotelCard
+    [ubi]="hotel.ubi" 
+    [nombre]="hotel.nombre" 
+    [precio]="hotel.precio" 
+    [nota]="hotel.nota"
+    [srcImagen]="hotel.srcImagen"
+    >
+  </HotelCard>
   </div>
+    <svg></svg>
+  </div>
+</div>

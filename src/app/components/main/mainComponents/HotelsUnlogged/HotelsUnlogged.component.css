@@ -1,5 +1,15 @@
 .hotel-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.col {
+  flex-direction: column;
+}

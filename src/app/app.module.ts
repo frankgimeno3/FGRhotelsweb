@@ -17,9 +17,10 @@ import { RouterModule } from '@angular/router';
 import { NavUnloggedComponent } from './components/main/mainComponents/NavUnlogged/NavUnlogged.component';
 import { HeroComponent } from './components/main/mainComponents/Hero/Hero.component';
 import { PromocionComponent } from './components/main/mainComponents/Promocion/Promocion.component';
-import { HotelsUnloggedComponent } from './components/main/mainComponents/HotelsUnlogged/HotelsUnlogged.component.';
+import { HotelsUnloggedComponent } from './components/main/mainComponents/HotelsUnlogged/HotelsUnlogged.component';
 import { FooterUnloggedComponent } from './components/main/mainComponents/FooterUnlogged/FooterUnlogged.component';
-
+import { HotelCardComponent } from './components/sharedComponents/HotelCard/HotelCard.component';
+ 
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FooterUnloggedComponent } from './components/main/mainComponents/Footer
     HeroComponent,
     PromocionComponent,
     HotelsUnloggedComponent,
-    FooterUnloggedComponent
+    FooterUnloggedComponent,
+    HotelCardComponent
     ],
   imports: [
     BrowserModule,
