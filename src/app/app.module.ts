@@ -23,6 +23,9 @@ import { HotelCardComponent } from './components/sharedComponents/HotelCard/Hote
 import { Hoteles } from './components/dashboard/dashboardComponents/Hoteles/Hoteles.component';
 import { misReservas } from './components/dashboard/dashboardComponents/misReservas/misReservas.component';
 import { navbarLogged } from './components/dashboard/dashboardComponents/navbarLogged/navbarLogged.component';
+import { HotelCardConLink } from './components/dashboard/dashboardComponents/HotelCardConLink/HotelCardConLink.component';
+import { ReservaCard } from './components/dashboard/dashboardComponents/ReservaCard/ReservaCard.component';
+import { PestanaReservar } from './components/dashboard/dashboardComponents/PestanaReservar/PestanaReservar.component';
 
 
 @NgModule({
@@ -41,7 +44,10 @@ import { navbarLogged } from './components/dashboard/dashboardComponents/navbarL
     HotelCardComponent,
     Hoteles,
     misReservas,
-    navbarLogged
+    navbarLogged,
+    HotelCardConLink,
+    ReservaCard, 
+    PestanaReservar
   ],
   imports: [
     BrowserModule,
