@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Asegura que esté sobre otros elementos */
+  z-index: 1000;  
 }
 .main-section{
     text-align: center;
