@@ -1,3 +1,6 @@
+<div class="nav-unlogged-container">
+    <app-NavUnlogged></app-NavUnlogged>
+</div>
 <div class="main-section">
     <h2 >Login de usuario</h2>
  <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
@@ -12,4 +15,7 @@
     <input type="submit" value="Enviar">
 </form>
 <button class="btn btn-info" (click)="onClick()">Login With Google</button>
+</div>
+<div class="footer-container">
+    <app-FooterUnlogged></app-FooterUnlogged>
 </div>
