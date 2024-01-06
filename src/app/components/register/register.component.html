@@ -3,19 +3,25 @@
 </div>
 
 <div class="main-section" style="height:screen; margin-top: 0; padding-top: 300px;">
+    <div class="gray-section" style="font-weight:100; font-size:large">  
 
-    <h2>Registro de usuario</h2>
+    <h2 >Registro de usuario</h2>
     <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
-        <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input type="text" class="form-control" formControlName="email">
+        <div class="mb-3" style="display: flex; flex-direction: column;">
+            <label class="form-label" >Email</label>
+            <input type="text" class="form-control" style="margin: 10px 50px;" formControlName="email">
         </div>
-        <div class="mb-3">
+        <div class="mb-3" style="display: flex; flex-direction: column;">
             <label class="form-label">Password</label>
-            <input type="password" class="form-control" formControlName="password">
+            <input type="password" class="form-control" style="margin: 10px 50px;" formControlName="password">
         </div>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Registrarse" style="font-size:small; 
+        background-color: white; 
+        color:rgb(61, 61, 61); 
+        margin:  10px 0px 0px 10px; 
+        padding: 8px 20px 8px 20px; border-radius: 5px;">
     </form>
+</div>
 </div>
 
 

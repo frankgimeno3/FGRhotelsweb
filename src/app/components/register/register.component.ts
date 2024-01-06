@@ -29,7 +29,7 @@ export class RegisterComponent implements OnInit {
     this.userService.register(this.formReg.value)
       .then((response:any) => {
         console.log(response);
-        this.router.navigate(['/login']);
+        this.router.navigate(['/dashboard']);
       })
       .catch((error:any) => console.log(error));
   }
