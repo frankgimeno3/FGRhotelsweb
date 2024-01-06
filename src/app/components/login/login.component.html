@@ -1,20 +1,20 @@
 <div class="nav-unlogged-container">
     <app-NavUnlogged></app-NavUnlogged>
 </div>
-<div class="main-section">
-    <h2 >Login de usuario</h2>
- <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
-    <div class="mb-3">
-        <label class="form-label">Email</label>
-        <input type="text" class="form-control" formControlName="email">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Password</label>
-        <input type="password" class="form-control" formControlName="password">
-    </div>
-    <input type="submit" value="Enviar">
-</form>
-<button class="btn btn-info" (click)="onClick()">Login With Google</button>
+<div class="main-section" style="height:screen; margin-top: 0; padding-top: 300px;">
+    <h2>Login de usuario</h2>
+    <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" formControlName="email">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" formControlName="password">
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <button class="btn btn-info" (click)="onClick()">Login With Google</button>
 </div>
 <div class="footer-container">
     <app-FooterUnlogged></app-FooterUnlogged>
